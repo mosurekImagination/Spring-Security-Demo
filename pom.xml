@@ -11,7 +11,6 @@
 
 	<properties>
 		<springframework.version>5.0.2.RELEASE</springframework.version>
-
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<maven.compiler.target>1.8</maven.compiler.target>
 	</properties>
@@ -22,6 +21,7 @@
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-webmvc</artifactId>
+			<version>5.0.7.RELEASE</version>
 		</dependency>
 
 		<!-- Servlet, JSP and JSTL support -->
@@ -48,6 +48,11 @@
 			<artifactId>junit</artifactId>
 			<version>3.8.1</version>
 			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>com.luv2code</groupId>
+			<artifactId>spring-security-demo</artifactId>
+			<version>1.0</version>
 		</dependency>
 
 	</dependencies>

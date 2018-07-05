@@ -22,7 +22,7 @@
 
 <body>
 
-	<div>
+	<div style="margin-left: 30%; text-align: center">
 		
 		<div id="loginbox" style="margin-top: 50px;"
 			class="mainbox col-md-3 col-md-offset-2 col-sm-6 col-sm-offset-2">

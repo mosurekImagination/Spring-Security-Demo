@@ -82,6 +82,13 @@
 							</div>
 						</div>
 
+						<div>
+							<a href="${pageContext.request.contextPath}/register/showForm"
+							   class="btn btn-primary"
+							   role="button" aria-pressed="true">
+								Register
+							</a>
+						</div>
 					</form:form>
 
 				</div>

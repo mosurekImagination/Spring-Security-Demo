@@ -3,7 +3,7 @@ use `spring-security-demo`;
 
 CREATE TABLE users(
 	username varchar(50) not null,
-    password varchar(50) not null,
+    password varchar(68) not null,
     enabled tinyint(1) not null,
     
     PRIMARY KEY(username)
@@ -12,7 +12,8 @@ CREATE TABLE users(
 INSERT INTO users values
 ('johnDb', '{noop}test123',1),
 ('johnDb1', '{noop}test123',1),
-('johnDb2', '{noop}test123',1);
+('johnDb2', '{noop}test123',1),
+('johnEncrypted', '{bcrypt}$2y$12$UgbLa3EEqoHcx0M/ynbRze5puZO00x2IfJ8EPjUGb4OerB8sZiR/y',1);
 
 CREATE TABLE authorities(
 	username varchar(50) not null,
